@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+</head>
+<body>
+    <!--HEADER ENCABEZADO-->
+<header>
+    <h1>Formulario en HTML5</h1>
+</header>
+<!--Contenido principal-->
+<main>
+    <section>
+        <h2>Ejemplo 1</h2>
+        <!--Inicio del formulario-->
+        <form>
+            <!--Alfanumerico-->
+            <label for="">Nombre completo</label>
+            <input
+             type="text" 
+            name="nombreCompleto"
+             placeholder="Hey loco, escribe aquì"
+              spellcheck="true" size="17">
+            <br>
+            <br>
+            <!--Busqueda-->
+            <label for="">Busqueda</label>
+            <input
+             type="search"
+             name="Busqueda" 
+             placeholder="Busca lo que necesites">
+            <br>
+            <br>
+            <!--Numero de telefono-->
+            <label for="">Nùmero de telefono</label>
+            <input
+             type="tel"
+             name="telefono" 
+             placeholder="Ingresa tu telèfono">
+            <br>
+            <br>
+            <!--URL-->
+            <label for="">URL:</label>
+            <input
+             type="url" 
+            name="web" 
+            placeholder="www.example.com">
+            <br>
+            <br>
+            <!--Email-->
+            <label for="">Email</label>
+            <input
+             type="email"
+             name="mail"
+              placeholder="example@example.co,">
+            <br>
+            <br>
+            <!--Contraseña-->
+            <label for="">Contraseña</label>
+            <input 
+            type="password"
+             name="contra" >
+            <br>
+            <br>
+            <!--Campo oculto-->
+            <label for="">Campo oculto</label>
+            <input
+             type="hidden"
+             name="oculto"
+              value="clave">
+            <br>
+            <br>
+            <!--Comentario-->
+            <label for="">Comentario</label>
+            <textarea name="comentario" 
+            id="comentario"
+             cols="30" 
+             rows="10"
+              placeholder="Escribe una reseña, dirección, etc..."></textarea>
+              <br>
+              <br>
+              <label for="">Numero entero</label>
+              <input
+               type="number"
+               name="numero"
+               value="16"
+               min="16"
+               max="100"
+                placeholder="Escribe un numero">
+              <br>
+              <br>
+              <label for="">Rango</label>
+              <input 
+              type="range"
+              name="rango" 
+              value="70"
+               min="16"
+               max="100">
+        </form>
+        <!--Fin de Formulario-->
+    </section>
+</main>
+<!--PIE DE PAGINA-->
+<footer>
+<h3>
+    &copy; Copyright: Josue Ramirez
+</h3>
+</footer>
+
+</body>
+</html>
